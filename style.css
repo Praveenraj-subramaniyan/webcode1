@@ -1,0 +1,105 @@
+.bgimageDiv {
+  background-image: url(images/beer-bg-1680pxbright.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+#detailsContainer {
+  background-color: rgba(255, 249, 9, 1);
+  padding-bottom: 100px;
+}
+
+.detailsEmpty {
+  background-color: rgba(255, 249, 9, 1);
+  height: 265px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.MainDiv {
+  margin: 0px;
+}
+
+.card {
+  margin-left: 30%;
+  margin-right: 20%;
+  border: 3px solid yellowgreen;
+  width: 25%;
+  height: 190px;
+  border-radius: 5px;
+  padding: 6px;
+  margin-bottom: 1%;
+  background-color: yellow;
+}
+
+.search-bar {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  width: 70%;
+}
+
+.search-bar input {
+  height: 100%;
+  border: 2px solid yellowgreen;
+  width: 25%;
+  padding: 4px 6px 6px 6px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #535353;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  height: 41.5px;
+  width: 10%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 820px) {
+  .search-bar button {
+    width: 65px;
+  }
+
+  .card {
+    margin-left: 30%;
+    margin-right: 20%;
+    border: 3px solid yellowgreen;
+    width: 45%;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 1%;
+  }
+
+  .search-bar input {
+    height: 100%;
+    border: 3px solid yellowgreen;
+    width: 160px;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #535353;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+}
